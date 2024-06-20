@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pre K - Lesson 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<style>
+body{ background: linear-gradient(45deg, white, #D1E4C4, white); 
+height:600vh; }
+.tooltips2{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:30px;
+ font-weight:normal;
+ cursor:pointer;
+ 
+}
+.tooltips2 .tooltipstext2{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:20px;
+ width:200px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:30px;
+ font-weight:normal;
+ padding: 10px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips2:hover .tooltipstext2{  visibility: visible;}
+.p{text-align: center; font-size: 33px;}
+.p1 {font-size: 30px;}
+
+
+
+
+
+
+
+
+.container {
+            padding-top: 20%;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            
+        }
+ 
+        .container span {
+            display: block;
+        }
+ 
+        .text1 {
+            color: tomato;
+            font-size: 70px;
+            font-weight: 700;
+            letter-spacing: 8px;
+            margin-bottom: 20px;
+            background: #F1F7ED;
+            position: relative;
+            animation: text 3s 1;
+
+}
+ 
+        .text2 {
+            font-size: 30px;
+            color: tomato;
+            font-family: Georgia, serif;
+        }
+ 
+        @keyframes text {
+            0% {
+                color: black;
+                margin-bottom: -40px;
+            }
+ 
+            30% {
+                letter-spacing: 25px;
+                margin-bottom: -40px;
+            }
+ 
+            85% {
+                letter-spacing: 8px;
+                margin-bottom: -40px;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttons{padding:10px; box-shadow: 5px 5px 7px grey; font-size: 30px; width:100%; border:none; font-weight: bold; background: #F1F7ED;}
+
+.link{text-decoration:none; color: #339966;}
+
+
+.tooltips2{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:30px;
+ font-weight:normal;
+ cursor:pointer;
+ 
+}
+.tooltips2 .tooltipstext2{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:70px;
+ width:200px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:30px;
+ font-weight:normal;
+ padding: 10px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips2:hover .tooltipstext2{  visibility: visible;}
+
+
+
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:100px;
+ font-weight:bold;
+ cursor:pointer;
+ color: #339966;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:10;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 20px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: visible;}
+.p{text-align: center; font-size: 33px;}
+.p1 {font-size: 30px; color: #339966;}
+
+.div1 {display: grid; grid-template-columns: 900px; justify-content: center; margin-top: 20px; cursor:pointer;}
+.div2 {display: grid; grid-template-columns: 500px 1fr;}
+.div3 {display: grid; grid-template-columns:1fr 500px;}
+.div4 {text-align: left; font-size: 30px; padding-left: 45px;}
+.div5 {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+.div6 {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;}
+.div7 {text-align: center; font-size: 40px;}
+.div8 {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+
+.convo{text-align:left; box-shadow: 1px 0 3px grey; border-radius: 3px; padding:10px; margin-bottom:5px;}
+
+.video{width:450px; border-radius:5px;}
+
+.img1{width:500px; border-radius:5px;}
+.img2{width:100px; border-radius:19px;}
+.img3{width:300px; border-radius:20px;}
+
+.textarea{font-size: 30px; color:purple; border-radius:5px; font-family:new roman; text-align:center;}
+
+
+
+
+@media screen and (max-width: 1000px){
+.p{text-align: center; font-size: 25px;}
+.p1 {font-size: 22px;}
+
+.div1 {display: grid; grid-template-columns: 1fr;}
+.div2 {display: grid; grid-template-columns:1fr;}
+.div3  {display: grid; grid-template-columns:  1fr; font-size: 23px;}
+.div4 {text-align: left; font-size: 23px;}
+.div5 {display: grid; grid-template-columns: 1fr;}
+.div6 {display: grid; grid-template-columns: 1fr;}
+.div7 {text-align: center; font-size: 30px;}
+.div8 {display: grid; grid-template-columns: 1fr ;}
+.wrapper { overflow-x: hidden; width: 100%; background: linear-gradient(45deg, white, #D1E4C4, white);}
+
+.buttons{padding:30px; box-shadow: 5px 5px 7px grey; font-size: 25px; border-radius:5px; border:none; font-weight: bold; width:100%; background: #F1F7ED;}
+
+.video{width:100%;}
+
+.img1{width:100%;}
+.img2{width:100%;}
+.img3{width:100%; border-radius:20px;}
+.textarea{font-size: 30px; color:purple; font-family:new roman; text-align:center; width:100%;}
+
+
+
+.tooltips2{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:30px;
+ font-weight:normal;
+ cursor:pointer;
+ 
+}
+.tooltips2 .tooltipstext2{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:-10px;
+ width:200px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:25px;
+ font-weight:normal;
+ padding: 10px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips2:hover .tooltipstext2{  visibility: visible;}
+
+
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:30px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:100;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 5px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: hidden;}
+}
+
+<span class="tooltipstext"> </span>
+
+.dropdown{ display: flex; }
+ .dropdown button{
+  background-color: #D1E4C4; color: black; padding: 10px 30px;
+  border:none; cursor:pointer; box-shadow: 5px 5px 7px black;
+  transition:0.05s; border-radius:4px;
+ }
+
+ .dropdown a{
+  display: flex; text-decoration: none; text-align: center; padding: 10px 23px; margin-top:10px; background-color: #D1E4C4;
+  color:black; box-shadow: 5px 5px 7px black; border-radius:4px; margin-left:5px; z-index:10;
+ }
+
+ .dropdown .content{
+   position: absolute; min-width:100px;
+  display:none;
+ }
+
+ .dropdown:hover .content{ 
+  display:flex;
+ }
+ .dropdown:hover button{
+  background-color: #F1F7ED; color:black;
+ }
+ .dropdown a:hover{
+  background-color: #F1F7ED; color:black;
+ }
+  <a href="https://www.facebook.com/profile.php?id=100092246656320" target="_blank">Facebook</a>
+</style>
+
+</head>
+<body>
+
+<div class="wrapper">
+
+<div class="dropdown">
+ <button>Contact Me</button>
+ <div class="content">
+  <a href="mailto: makaremalakhlaaq@gmail.com" target="_blank">Email</a>
+  <a href="https://wa.me/254740284442" target="_blank">WhatsApp</a>
+
+ </div>
+</div>
+
+<h1 class="tooltips">Aa <span class="tooltipstext">Lesson Objectives<br> Key Words: hello, apple, goodbye<br>
+Grammar: to draw<br>
+Interactivity: clap, click, draw</span></h1> 
+
+
+<div class="div1" style=" ">
+
+
+<div class="p1" style="text-align: left; background-color: #F1F7ED;  padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">
+
+
+
+<div class="div2">
+
+<div style="text-align: left; "><img src="1.jpg" class="img1"></div>
+    <div class="container">
+        <div class="row">
+            <span class="text1">Hello!</span>
+            <span class="text2">I am Apple 🍎</span>
+        </div>
+    </div>
+</div><br><br><br><br>
+
+ <div class="div3">
+<div style="text-align: center;  padding-top:40%;">
+How are you?<br><textarea class="textarea"></textarea><br>
+What's your name?<br><textarea class="textarea"></textarea></div>
+
+<div style="text-align: right; margin-bottom: 10px;">
+<video src="2.mp4" controls="" muted class="video"></video>
+</div>
+ </div><br><br><br>
+
+ <div class="div2">
+<div style="text-align: left; margin-bottom: 10px;">
+<video src="3.mp4" controls="" muted class="video"></video>
+Now I know my ABCs!<br>
+Next time won't you sing with me?
+</div>
+
+<div style="display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; text-align: left; font-size:35px; text-shadow: 1px 1px black;">
+
+<div style="">
+Aa<br><hr>
+<span style="color: pink">Ee</span><br><hr>
+<span style="color: lightblue">Ii</span><br><hr>
+<span style="color: yellow">Mm</span><br><hr>
+<span style="color: purple">Qq</span><br><hr>
+<span style="color: grey">Uu</span><br><hr>
+<span style="color: orange">Yy</span>
+</div>
+<div>
+Bb<br><hr>
+<span style="color: pink">Ff</span><br><hr>
+<span style="color: lightblue">Jj</span><br><hr>
+<span style="color: yellow">Nn</span><br><hr>
+<span style="color: purple">Rr</span><br><hr>
+<span style="color: grey">Vv</span><br><hr>
+<span style="color: orange">Zz</span>
+
+</div>
+<div>Cc<br><hr>
+<span style="color: pink">Gg</span><br><hr>
+<span style="color: lightblue">Kk</span><br><hr>
+<span style="color: yellow">Oo</span><br><hr>
+<span style="color: purple">Ss</span><br><hr>
+<span style="color: grey">Ww</span><br><hr>
+<span style="color: orange">-</span>
+
+</div>
+<div>Dd<br><hr>
+<span style="color: pink">Hh</span><br><hr>
+<span style="color: lightblue">Ll</span><br><hr>
+<span style="color: yellow">Pp</span><br><hr>
+<span style="color: purple">Tt</span><br><hr>
+<span style="color: grey">Xx</span><br><hr>
+<span style="color: orange">-</span>
+</div>
+
+</div>
+ </div><br><br>
+
+
+
+ <div class="div3" style="text-shadow: 1px 1px black;">
+<div  style="text-align: left;  padding-top:67%;">
+
+<span style="color: lightblue">Apple, apple, red and round,</span><br><br>
+<span style="color: tomato">In the tree or on the ground.</span><br><br>
+<span style="color: purple">Crunchy, sweet, & good to eat,</span> <br><br>
+<span style="color: orange">A tasty, healthy, special treat.</span><br><br>
+<span style="color: yellow">Apple, apple, red and round,</span><br><br>
+<span style="color: brown">In the tree or on the ground.</span>
+</div>
+
+<div style="text-align:center;">
+<span style="color:lightblue; font-size: 250px; text-shadow: 1px 1px black;">Aa</span><br>
+<img src="4.jpg" class="img3"> </div>
+ </div><br><br>
+
+
+
+ <div class="div2">
+<div style="text-align: left; ">
+<img src="5.jpg" class="img1">
+</div>
+
+<div style="text-align: left; padding-left: 25%; padding-top: 50%;">
+
+Draw an Apple
+</div>
+ </div><br><br>
+
+
+
+ <div  style="text-align: center; ">
+Choose the correct answer<br><br>
+</div>
+
+<div class="div5">
+<div style="text-align: center; ">
+1<br><img src="6.jpg" class="img2"> </div>
+
+<div style="text-align: center; ">2<br><img src="7.jpg" class="img2"></div>
+
+<div style="text-align: center; ">3<br><img src="8.jpg" class="img2"></div>
+ </div><br><br>
+<div  style="text-align: center; ">
+<textarea class="textarea"></textarea>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+<script>
+<span style="color: MediumSeaGreen;">To the tune of</span><br><br>
+<span style="color: pink">"Twinkle, Twinkle, Little Star"</span><br><br>
+
+<div class="tooltips2" style="display:inline-block;">spoiled.<span class="tooltipstext2"> <img src="fresh.jpg" class="img1">
+</span></div>
+
+<div style="text-align: center; margin-bottom: 10px;">
+<video src="Appleandhisfriends.mp4" controls="" muted class="video"></video>
+</div>
+  var sound1 = new Audio();
+  sound1.src = "spectacles.mp3";
+</script>
+</body>
+</html>
